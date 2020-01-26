@@ -10,14 +10,21 @@ Ejecuta el comando `lua brainfuck.lua codigo-brainfuck.bf`.
 # Guinxu lang
 
 Es una modificación al lenguaje brainfuck donde solo cambia la sintaxis usando los caracteres "guinxu[]", en referencia al conocido youtuber y desarrollador de videojuegos español Guinxu:
-
+```
 > = g
-< = u
-+ = i
-- = n
-. = x
-, = u
-[ = [
-] = ]
 
+< = u
+
++ = i
+
+- = n
+
+. = x
+
+, = u
+
+[ = [
+
+] = ]
+```
 Comando: `lua guinxulang.lua codigo-guinxu.guinxu`
