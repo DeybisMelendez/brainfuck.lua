@@ -7,9 +7,9 @@ Debes descargar el archivo brainfuck.lua y tener instalado Lua5.3 o superior, en
 
 Ejecuta el comando `lua brainfuck.lua codigo-brainfuck.bf`.
 
-# Guinxu lang
+# Guinxü lang
 
-Es una modificación al lenguaje brainfuck donde solo cambia la sintaxis usando los caracteres "guinxu[]", en referencia al conocido youtuber y desarrollador de videojuegos español Guinxu:
+Es una modificación al lenguaje brainfuck donde solo cambia la sintaxis usando los caracteres "guinxü[]", en referencia al conocido youtuber y desarrollador de videojuegos español Guinxu:
 ```
 > = g
 
