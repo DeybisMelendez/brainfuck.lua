@@ -19,7 +19,7 @@ for char in code:gmatch(".") do
     elseif char == "[" then luacode = luacode .. "while (c[i] or 0) ~= 0 do "
     elseif char == "]" then luacode = luacode .. "end "
     elseif char == "x" then luacode = luacode .. "io.write(string.char(c[i] or 0)) "
-    elseif char == "u" then luacode = luacode .. "c[i] = io.read():byte() "
+    elseif char == "ü" then luacode = luacode .. "c[i] = io.read():byte() "
     end
 end
 

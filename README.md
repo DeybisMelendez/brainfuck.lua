@@ -21,7 +21,7 @@ Es una modificación al lenguaje brainfuck donde solo cambia la sintaxis usando 
 
 . = x
 
-, = u
+, = ü
 
 [ = [
 
