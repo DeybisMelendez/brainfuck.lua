@@ -1,6 +1,5 @@
 -- https://web.archive.org/web/20041211184550/http://alx2002.free.fr/esoterism/brainfuck/brainfuck_en.html#exp1
 -- https://es.wikipedia.org/wiki/Brainfuck
-local time = os.clock()
 local filePath = ({...})[1]
 local code = ""
 local file = io.open(filePath,"r")
@@ -25,4 +24,3 @@ end
 
 local exe = load(luacode) -- si usas lua5.1 o inferior cambiar load por loadstring
 if exe then exe() end
-print("time: " .. os.clock() - time .. " ms")
