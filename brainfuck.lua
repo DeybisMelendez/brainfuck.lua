@@ -21,6 +21,10 @@ for char in code:gmatch(".") do
     elseif char == "," then luacode = luacode .. "c[i] = io.read():byte() "
     end
 end
-
-local exe = load(luacode) -- si usas lua5.1 o inferior cambiar load por loadstring
-if exe then exe() end
+if not load then
+    local exe = load(luacode)
+    if exe then exe() end
+else
+    local exe = loadstring(luacode)
+    if exe then exe() end
+end
