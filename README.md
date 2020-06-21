@@ -1,7 +1,13 @@
 # brainfuck.lua
 Interprete Brainfuck escrito en Lua
 
-## Como usarlo
+## Como usarlo en Windows 64 bits. o Linux 64 bits.
+
+Descarga el ejecutable: https://github.com/DeybisMelendez/brainfuck.lua/releases/tag/v0.1.0
+
+Sigue las instrucciones de Leeme.txt
+
+## Como usarlo con Lua
 
 Debes descargar el archivo brainfuck.lua y tener instalado Lua5.3 o superior, en caso de tener una version anterior debes modificar una linea de codigo para ajustarlo a la version.
 
