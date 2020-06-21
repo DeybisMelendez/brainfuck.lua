@@ -3,7 +3,7 @@ Interprete Brainfuck escrito en Lua
 
 ## Como usarlo en Windows 64 bits. o Linux 64 bits.
 
-Descarga el ejecutable: https://github.com/DeybisMelendez/brainfuck.lua/releases/tag/v0.1.0
+Descarga el ejecutable: https://github.com/DeybisMelendez/brainfuck.lua/releases
 
 Sigue las instrucciones de Leeme.txt
 
